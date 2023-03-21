@@ -1,0 +1,79 @@
+.card {
+  width: 320px;
+  height: 450px;
+  margin: 20px 50px;
+  background-color: #d5d2d2;
+  text-align: center;
+  position: relative;
+  border-radius: 20px;
+  transition-duration: 1000ms;
+  overflow: hidden;
+  /* box-shadow: rgba(0, 0, 0, 0.22) 0px 5px 15px; */
+  box-shadow: rgba(175, 176, 177, 0.2) 0px 8px 24px;
+}
+.profile {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  margin: 20px -50px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+button {
+  background-color: #cfcaca;
+  height: 20px;
+  width: 40px;
+  border-radius: 20px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  margin: 5px 0px 0px 250px;
+}
+button span {
+  display: block;
+  background: #e7e6e6;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  transition: 0.8s;
+  /* margin-left: 1px; */
+}
+.active {
+  background-color: green;
+}
+.active span {
+  background-color: white;
+  margin-left: 15px;
+}
+
+.activecard {
+  width: 320px;
+  height: 450px;
+  margin: 20px 50px;
+  background-color: #393838;
+  color: white;
+  text-align: center;
+  position: relative;
+  border-radius: 20px;
+  transition-duration: 2000ms;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+#bio {
+  width: 400px;
+  margin: 160px -40px;
+  line-height: 30px;
+  font-weight: bold;
+  /* position: absolute; */
+}
+#bio label {
+  color: red;
+}
+#bio span {
+  color: green;
+}
+#bio .add {
+  width: 300px;
+  color: rgb(39, 101, 235);
+  margin: -5px 50px;
+  line-height: 20px;
+}
